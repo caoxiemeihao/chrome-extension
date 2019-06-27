@@ -7,6 +7,7 @@
   },
   "version": "19.06.27",
   "permissions": [
+    "activeTab",
     "tabs",
     "storage",
     "declarativeContent",
@@ -19,6 +20,5 @@
     "default_title": "Cj utils",
     "default_popup": "popup.html"
   },
-  "icons": "icon_40.png",
   "manifest_version": 2
 }
