@@ -7,18 +7,19 @@
     <link rel="stylesheet" href="./css/main.css">
   </head>
   <body>
-    <div id="app" class="popup-wrap container-fluid">
-      <div class="popup-title h5 text-center">
+    <div id="app" class="popup-wrap">
+      <div class="popup-title text-center fixed-top">
         Dreams are bigger than the world!
       </div>
       <div class="popup-body">
-        <div class="operate text-right">
-          <span class="btn btn-sm btn-light" @click="uploadExcel">upload excel</span>
+        <div class="operate p-2">
+          <span class="btn btn-sm btn-light">upload excel</span>
+          <span id="change-color" class="btn btn-sm btn-default">change color</span>
         </div>
       </div>
     </div>
 
-    <script src="./js/vue.2.6.10.js"></script>
-    <script src="./js/main.js"></script>
+    <script src="./js/jquery.3.4.1.js"></script>
+    <script src="./js/popup.js"></script>
   </body>
 </html>

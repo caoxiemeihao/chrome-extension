@@ -1,4 +1,6 @@
-.popup-wrap {
-  width: 400px;
-  height: 600px;
-}
+
+body { font-size: 14px; }
+.popup-wrap { padding-top: 34px; width: 400px; height: 440px; }
+.popup-title { height: 34px; line-height: 34px; background: aliceblue; text-shadow: 0 0 1px #ccc; }
+.popup-body .operate { box-shadow: 0 0 1px #ccc; }
+
