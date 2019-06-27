@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Cj utils",
+  "description": "Parse excel and download the images.",
+  "version": "19.06.27",
+  "permissions": [
+    "tabs",
+    "storage",
+    "notifications",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "browser_action": {
+    "default_icon": "icon_40.png",
+    "default_title": "Cj utils",
+    "default_popup": "popup.html"
+  }
+}
